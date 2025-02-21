@@ -1,6 +1,7 @@
 import mongoose from 'mongoose';
 
-const MONGODB_URI = 'mongodb://localhost:27017/myapp';
+const MONGODB_URI = 'mongodb://mongo:LWgoIXEKztAiGBjlfAIJVVoEtLZqfGdL@maglev.proxy.rlwy.net:28405'
+
 
 export const connectDB = async () => {
   try {
